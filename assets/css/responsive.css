@@ -7,6 +7,20 @@
   #slider {
     margin-top: 3rem;
   }
+
+  .contact-card {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    color: black;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 /* Mobile */
@@ -36,6 +50,24 @@
 
   #slider {
     margin-top: 3.5rem;
+  }
+
+  #lien-he {
+    padding: 1rem;
+  }
+
+  .contact-card {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    color: black;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -140,7 +172,17 @@
     padding: 1rem;
   }
 
-  .swiper-btns {
-    
+  .contact-card {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    color: black;
+    margin: 1.2rem 0rem;
+    text-align: center;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }

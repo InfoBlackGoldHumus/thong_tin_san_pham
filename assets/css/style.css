@@ -226,6 +226,8 @@ html {
   right: -1rem;
   top: 3.2rem;
   z-index: 2;
+  background-color: rgb(158, 125, 16);
+  color: white;
 }
 
 .stepper-right .step-index {
@@ -257,5 +259,45 @@ html {
 }
 
 #lien-he {
+  height: auto;
   padding: 3rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.contact-card {
+  border-radius: 0.8rem;
+}
+
+.contact-box {
+  
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.contact-card {
+  width: 25%;
+  height: 18rem;
+  background-color: white;
+  border: 1px solid blue;
+  color: black;
+  margin: 0rem 4rem;
+  text-align: center;
+  padding: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.contact-card .contact-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(158, 125, 16);
+  width: 70%;
+  border-radius: 0.8rem;
+  border: 2px solid black;
 }
