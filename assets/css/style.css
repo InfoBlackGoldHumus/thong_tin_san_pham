@@ -98,8 +98,16 @@ html {
   max-width: 800px;
   width: 100%;
   transition: width 700ms ease;
+  text-align: center;
 }
 
+.swiper-button-prev {
+  color:rgb(158, 125, 16);;
+}
+
+.swiper-button-next {
+  color:rgb(158, 125, 16);;
+}
 .slider-video {
   z-index: 1;
   overflow: hidden;
